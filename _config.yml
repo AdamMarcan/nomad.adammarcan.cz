@@ -1,0 +1,37 @@
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Site settings
+title: "Digitální nomádství - kam vyrazit"
+description: "Tipy jak se usídlit a pracovat na dálku z mých 7 oblíbených lokací. Kde spát, odkud pracovat, co kolik stojí a kde nakupovat."
+keywords: "práce na dálku, lokace, místo, digitální nomádství, kam vyrazit, kde, město, lokalita, práce na dálku"
+baseurl: ""
+url: "https://nomad.adammarcan.cz"
+navigation:
+  - title: "Đà Nẵng <span>Vietnam</span>"
+    url: "danang.html"
+    image: "/assets/img/danang/main.jpg"
+  - title: "Málaga <span>Španělsko</span>"
+    url: "malaga.html"
+    image: "assets/img/malaga/main.jpg"
+  - title: "Lisabon <span>Portugalsko</span>"
+    url: "lisbon.html"
+    image: "assets/img/lisbon/main.jpg"
+  - title: "L'viv <span>Ukraine</span>"
+    url: "lviv.html"
+    image: "assets/img/lviv/main.jpg"
+  - title: "Tulum <span>Mexico</span>"
+    url: "tulum.html"
+    image: "assets/img/tulum/main.jpg"
+  - title: "Bali <span>Indonésie</span>"
+    url: "bali.html"
+    image: "assets/img/bali/main.jpg"
+  - title: "Chiang Mai <span>Thajsko</span>"
+    url: "chiangmai.html"
+    image: "assets/img/chiangmai/main.jpg"
+  - title: "Antigua <span>Guatemala</span>"
+    url: "antigua.html"
+    image: "assets/img/antigua/main.jpg"

@@ -1,0 +1,7 @@
+<menu>
+	{% for link in site.navigation %}
+		<li{% if page.url == link.url %} class="current"{% endif %}>
+			<a href="{{ link.url | relative_url }}"><span class="place">{{ link.title }}</span><img src="{{ link.image }}" /></a>
+		</li>
+	{% endfor %}
+</menu>
